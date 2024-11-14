@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(firewatch_wallpaper.jpg);
+    background-position: cover;
+    background-size: auto;
+}
+
+header {
+    background-color: #33333300;
+    color: #151414;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin-top: 0 ;
+}
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff00;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.699);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #33333300;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.profile-section {
+    text-align: center;
+    margin-top: -10px;
+}
+.profile-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-section p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: rgba(15, 12, 12, 0);
+}
+.start p {
+    font-size: 20px;
+}
+.start h2 {
+    font-size: 20px;
+}
+.skill {
+    font-size: 20px;
+}
+.progress {
+    width: 100%; /* Atur lebar sesuai kebutuhan, misalnya 100% untuk memenuhi lebar kontainer */
+    background-color: #f3f3f3; /* Warna latar belakang progress bar */
+    border-radius: 5px; /* Membuat sudut melengkung */
+    overflow: hidden; /* Menyembunyikan bagian yang melampaui batas */
+}
+
+.progress-bar {
+    width: 75%; /* Atur lebar progress bar sesuai persentase yang diinginkan */
+    height: 25px; /* Tinggi progress bar */
+    background-color: #4caf50; /* Warna progress bar */
+    text-align: center; /* Untuk menempatkan teks di tengah */
+    line-height: 25px; /* Menyesuaikan tinggi teks dengan tinggi progress bar */
+    color: white; /* Warna teks */
+}
+.progress-bar-1 {
+    width: 60%; /* Atur lebar progress bar sesuai persentase yang diinginkan */
+    height: 25px; /* Tinggi progress bar */
+    background-color: #4b0bed; /* Warna progress bar */
+    text-align: center; /* Untuk menempatkan teks di tengah */
+    line-height: 25px; /* Menyesuaikan tinggi teks dengan tinggi progress bar */
+    color: white; /* Warna teks */
+}
+.progress-bar-2 {
+    width: 5%; /* Atur lebar progress bar sesuai persentase yang diinginkan */
+    height: 25px; /* Tinggi progress bar */
+    background-color: #e9fe00; /* Warna progress bar */
+    text-align: center; /* Untuk menempatkan teks di tengah */
+    line-height: 25px; /* Menyesuaikan tinggi teks dengan tinggi progress bar */
+    color: white; /* Warna teks */
+}
+.progress-bar-3 {
+    width: 2%; /* Atur lebar progress bar sesuai persentase yang diinginkan */
+    height: 25px; /* Tinggi progress bar */
+    background-color: #f8a500; /* Warna progress bar */
+    text-align: center; /* Untuk menempatkan teks di tengah */
+    line-height: 25px; /* Menyesuaikan tinggi teks dengan tinggi progress bar */
+    color: white; /* Warna teks */
+}
+.progress-bar-4 {
+    width: 50%; /* Atur lebar progress bar sesuai persentase yang diinginkan */
+    height: 25px; /* Tinggi progress bar */
+    background-color: #770150; /* Warna progress bar */
+    text-align: center; /* Untuk menempatkan teks di tengah */
+    line-height: 25px; /* Menyesuaikan tinggi teks dengan tinggi progress bar */
+    color: white; /* Warna teks */
+}
+
+.contact {
+    font-size: 20px;
+
+    .list {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: #151515;
+        transition: 0.3s;
+        
+    }
+    ul {
+        margin-left: -40px;
+    }
+    li :hover {
+        color: #1218c7;
+        font-size: 30px;
+        
+    }
+}
+.quote {
+    font-size: 20px;
+}
+.arab {
+    font-size: 30px;
+}
+.lain-lain {
+    font-size: 20px;
+}
+.emoji {
+    font-size: 35px;
+    
+}
+
+.back button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    border: 0;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 18px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+button:active,
+button:hover {
+    outline: 0;
+}
+
+button a {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+    text-decoration: none;
+}
+
+button:hover a {
+    background: none;
+}
+
+button:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
